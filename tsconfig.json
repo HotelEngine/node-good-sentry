@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "noEmitHelpers": false,
+    "noEmitOnError": true,
+    "inlineSourceMap": true,
+    "declaration": true,
+    "lib": [
+      "esnext"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist/**/*.*"
+  ]
+}

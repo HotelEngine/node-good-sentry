@@ -1,0 +1,23 @@
+{
+  "name": "node-good-sentry",
+  "version": "0.1.0",
+  "description": "Node module for streaming hapi server events to a Sentry server via good hapi plugin",
+  "main": "src/index.js",
+  "repository": "https://github.com/HotelEngine/node-good-sentry",
+  "author": "Hotel Engine",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./dist/*",
+    "build": "./node_modules/.bin/tsc",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "fast-safe-stringify": "^2.0.6",
+    "raven": "^2.6.4",
+    "traverse": "^0.6.6"
+  }
+}
