@@ -11,7 +11,7 @@ node_modules
 # Ignore js files (compiled typescript)
 **/*.js
 
-dist/**/*.*
+lib/**/*.*
 
 # Logs
 *.log

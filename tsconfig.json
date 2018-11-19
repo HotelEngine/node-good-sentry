@@ -3,7 +3,7 @@
     "target": "esnext",
     "module": "commonjs",
     "baseUrl": "./src",
-    "outDir": "./dist",
+    "outDir": "./lib",
     "noEmitHelpers": false,
     "noEmitOnError": true,
     "inlineSourceMap": true,
@@ -17,6 +17,6 @@
   ],
   "exclude": [
     "node_modules",
-    "dist/**/*.*"
+    "lib/**/*.*"
   ]
 }
