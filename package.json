@@ -1,6 +1,6 @@
 {
   "name": "node-good-sentry",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node module for streaming hapi server events to a Sentry server via good hapi plugin",
   "main": "src/index.js",
   "repository": "https://github.com/HotelEngine/node-good-sentry",
